@@ -23,6 +23,8 @@ html {
 }
 
 body {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: var(--text-color-white);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
@@ -30,7 +32,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
-    width: 1600px;
 }
 
 h1,
@@ -93,8 +94,6 @@ p {
 
 /* NAVIGATION */
 .header {
-    padding-top: 29px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ececec;
 }
 
@@ -365,9 +364,11 @@ p {
 }
 
 .team-dscr {
+    width: 270px;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 270px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .team-card-title {
@@ -397,8 +398,6 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding-left: 32px;
-    padding-right: 32px;
 }
 
 .social-link {
@@ -432,14 +431,13 @@ p {
 /* CLIENTS */
 .clients-list {
     display: inline-flex;
-    padding: 0 215px;
 }
 .client-box {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 170px;
-    height: 92px;
+    height: 90px;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
 }
@@ -467,7 +465,8 @@ p {
 
 .footer-box {
     display: flex;
-    justify-content: flex-start;
+    align-items: baseline;
+    padding: 60px 0;
 }
 .address {
     margin-top: 20px;
@@ -521,20 +520,15 @@ p {
 
 .social-footer {
     margin-left: 70px;
-    padding-top: 75px;
-    padding-bottom: 97px;
+    padding-top: 12px;
     align-items: flex-start;
-}
-
-.auth-footer {
-    padding: 60px 0;
 }
 
 .social-list-footer {
     display: flex;
 }
 
-/* FOOTER */
+/* /FOOTER */
 
 /* PAGE PORTFOLIO */
 
